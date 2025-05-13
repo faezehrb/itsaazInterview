@@ -12,8 +12,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="fa" dir="rtl">
+      <body className="container px-8 m-auto">
         {children}
       </body>
     </html>
